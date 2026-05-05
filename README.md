@@ -19,3 +19,9 @@ The UI is built with ImGui mainly because it’s fast to work with and easy to u
 
 MinHook is used for gathering certain bits of data that aren’t exposed cleanly through normal Windows APIs. It lets the program hook into specific system functions so it can capture more detailed information about devices and driver behavior in real time. That’s where some of the extra reporting comes from that you wouldn’t normally see in standard tools.
 
+---------------------------------------------------------------------------------
+
+**Resources Used**
+
+https://github.com/ocornut/imgui
+https://github.com/tsudakageyu/minhook
