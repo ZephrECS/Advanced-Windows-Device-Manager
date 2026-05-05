@@ -25,3 +25,5 @@ MinHook is used for gathering certain bits of data that aren’t exposed cleanly
 
 https://github.com/ocornut/imgui
 https://github.com/tsudakageyu/minhook
+
+No, this project is not 100% made by a human, I'm an early and learning coder, so I do use assistance using IDEs such as **Antigravity** and **Cursor**. I use these to learn, and no, this project is not 100% AI coded.
