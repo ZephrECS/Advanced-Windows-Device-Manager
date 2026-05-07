@@ -15,7 +15,7 @@ If you end up trying it, any feedback helps—whether something’s broken, conf
 
 **Why it uses ImGui and MinHook**
 
-The UI is built with ImGui mainly because it’s fast to work with and easy to update while the program is running. Since this tool is still in early development, the layout and features change a lot, and ImGui makes it simple to tweak panels, add debug info, or adjust how data is displayed without constantly rebuilding a full UI system.
+UI is a simple command prompt, may upgrade to an actual Library, but currently, this is what I'm comfortable with.
 
 MinHook is used for gathering certain bits of data that aren’t exposed cleanly through normal Windows APIs. It lets the program hook into specific system functions so it can capture more detailed information about devices and driver behavior in real time. That’s where some of the extra reporting comes from that you wouldn’t normally see in standard tools.
 
@@ -23,7 +23,6 @@ MinHook is used for gathering certain bits of data that aren’t exposed cleanly
 
 **Resources Used**
 
-https://github.com/ocornut/imgui
 https://github.com/tsudakageyu/minhook
 
 No, this project is not 100% made by a human, I'm an early and learning coder, so I do use assistance using IDEs such as **Antigravity** and **Cursor**. I use these to learn, and no, this project is not 100% AI coded.
